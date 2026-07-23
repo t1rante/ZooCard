@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "BackendApplication",
+      "request": "launch",
+      "mainClass": "br.unesp.zoocard.backend.BackendApplication",
+      "projectName": "backend"
+    },
+    {
+      "type": "java",
+      "name": "BackendApplication (com DB_PASSWORD)",
+      "request": "launch",
+      "mainClass": "br.unesp.zoocard.backend.BackendApplication",
+      "projectName": "api",
+      "env": {
+        "DB_PASSWORD": "nikolas"
+      }
+    }
+  ]
+}
